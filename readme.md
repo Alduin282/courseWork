@@ -1,17 +1,17 @@
 Описание Приложения 
     1)Для использования поиска нужно зарегестрироваться и авторизироваться (функции "забыли пароль" пока нет ) , авторизация производится по email
-<p align="center"><img scr="https://ibb.co/Wc6Y4NY"></p>
+<p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/2837066/2243d5dd-d38c-47dc-b0a8-855066ef8603/s1200"></p>
     2)После авторизации появляется возможность поиска . Поиск очень прост,  производится по подстроке. С селектором "или" ищет по совпадению в первом или втором поле , а с "и" по двум сразу. 
-<p align="center"><img scr="https://ibb.co/jTdp17B"></p>
+<p align="center"><img scr="https://yandex.ru/collections/card/5ecc0cdd22eff7e12f2402e0/"></p>
     3)Поиск переводит на страницу с результатами , где пользователь может забронировать литературу.Реализована пагинация по пять записей.(на скриншоте по 3). Бронь происходит без перезагрузки страницы ,реализовано с помощью Vue.js компонентов.
-<p align="center"><img scr="https://ibb.co/ZGNKP1L"></p>
-<p align="center"><img scr="https://ibb.co/ykgsc4M"></p>
+<p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/3000514/50018e4b-150e-4554-beb6-33a09c6badc1/s1200"></p>
+<p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/2836229/6a0d34ac-32a1-4b69-a874-b805a7597c52/s1200"></p>
     4)Забронированные книги и данные пользователя можно посмотреть на странице профиля, там же можно и отменить бронь.(пагинации тут правда нет и ограничения по бронированию тоже).
-<p align="center"><img scr="https://ibb.co/grZBcH2"></p>
+<p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/2981700/82de7bdb-c87e-41c8-94e1-d5c1a44d35b5/s1200"></p>
     5)Так же есть страница "последние поступления" , на которую выводся книги за последний месяц. Там так же доступна бронь.
-<p align="center"><img scr="https://ibb.co/qjZWhMK"></p>
+<p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/2821159/8b15153d-fc1a-4617-856a-b17276ea1143/s1200"></p>
     6)Ну и главная страница пока выглядит так
-<p align="center"><img scr="https://ibb.co/t4RxSJq"></p>
+<p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/2710120/196f339b-e3c6-419f-91cc-e787d7f02136/s1200"></p>
 
 <br><br><br>
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
