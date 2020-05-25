@@ -1,8 +1,8 @@
 Описание Приложения 
     1)Для использования поиска нужно зарегестрироваться и авторизироваться (функции "забыли пароль" пока нет ) , авторизация производится по email
-<p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/2837066/2243d5dd-d38c-47dc-b0a8-855066ef8603/s1200"></p>
+![Иллюстрация к проекту](https://github.com/Alduin282/courseWork/raw/master/image/Capture.png)
     2)После авторизации появляется возможность поиска . Поиск очень прост,  производится по подстроке. С селектором "или" ищет по совпадению в первом или втором поле , а с "и" по двум сразу. 
-<p align="center"><img scr="https://yandex.ru/collections/card/5ecc0cdd22eff7e12f2402e0/"></p>
+![Иллюстрация к проекту](https://github.com/Alduin282/courseWork/raw/master/image/Capture1.png)
     3)Поиск переводит на страницу с результатами , где пользователь может забронировать литературу.Реализована пагинация по пять записей.(на скриншоте по 3). Бронь происходит без перезагрузки страницы ,реализовано с помощью Vue.js компонентов.
 <p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/3000514/50018e4b-150e-4554-beb6-33a09c6badc1/s1200"></p>
 <p align="center"><img scr="https://avatars.mds.yandex.net/get-pdb/2836229/6a0d34ac-32a1-4b69-a874-b805a7597c52/s1200"></p>
