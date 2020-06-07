@@ -4,12 +4,12 @@
     2)После авторизации появляется возможность поиска . Поиск очень прост,  производится по подстроке. С селектором "или" ищет по совпадению в первом или втором поле , а с "и" по двум сразу. 
 ![img](https://github.com/Alduin282/courseWork/raw/master/image/Capture1.PNG)
     3)Поиск переводит на страницу с результатами , где пользователь может забронировать литературу.Реализована пагинация по пять записей.(для скриншота по 3). Бронь происходит без перезагрузки страницы ,реализовано с помощью Vue.js компонентов.
-![img](https://github.com/Alduin282/courseWork/raw/master/image/Capture2.PNG)
-![img](https://github.com/Alduin282/courseWork/raw/master/image/Capture4.PNG)
+![img](https://github.com/Alduin282/courseWork/raw/master/image/NewCapture3.PNG)
+![img](https://github.com/Alduin282/courseWork/raw/master/image/NewCapture5.PNG)
     4)Забронированные книги и данные пользователя можно посмотреть на странице профиля, там же можно и отменить бронь.(пагинации тут правда нет и ограничения по бронированию тоже).
-![img](https://github.com/Alduin282/courseWork/raw/master/image/Capture5.PNG)
+![img](https://github.com/Alduin282/courseWork/raw/master/image/NewCapture1.PNG)
     5)Так же есть страница "последние поступления" , на которую выводся книги за последний месяц. Там так же доступна бронь.
-![img](https://github.com/Alduin282/courseWork/raw/master/image/Capture6.PNG)
+![img](https://github.com/Alduin282/courseWork/raw/master/image/NewCapture2.PNG)
     6)Ну и главная страница пока выглядит так
 ![img](https://github.com/Alduin282/courseWork/raw/master/image/Capture7.PNG)
 *дизайн стандартный из шаблона laravel, но хотелось бы оставить его 
