@@ -11,7 +11,7 @@
     5)Так же есть страница "последние поступления" , на которую выводся книги за последний месяц. Там так же доступна бронь.
 ![img](https://github.com/Alduin282/courseWork/raw/master/image/NewCapture2.PNG)
     6)Ну и главная страница пока выглядит так
-![img](https://github.com/Alduin282/courseWork/raw/master/image/Capture7.PNG)
+![img](https://github.com/Alduin282/courseWork/raw/master/image/NewCapture4.PNG)
 *дизайн стандартный из шаблона laravel, но хотелось бы оставить его 
 
 <br><br><br>
