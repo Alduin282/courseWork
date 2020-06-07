@@ -5,7 +5,7 @@
                 <span @click="update" v-if="!is_refresh & count!=0" style="color:blue; cursor:pointer" >Забронировать</span>
                 <span v-if="is_refresh & !ok &!err" style="color:grey">Ожидание сервера...</span>
                 <span v-if="is_refresh & ok & !massage &!err" style="color:green;" >
-                Книга успешно забронирована. Книга будет ждать вас 3 дня
+                Книга успешно забронирована.<br> Книга будет ждать вас 3 дня
                 </span>
                 <span v-if="is_refresh & ok & massage &!err" style="color:red" >
                 Вы уже забронировали эту книгу

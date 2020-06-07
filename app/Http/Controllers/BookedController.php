@@ -25,14 +25,12 @@ class BookedController extends Controller
     public function index(Request $req){
 
         $str = "Вы уже забронировали эту книгу";
-        $cheak = Booked::where("user_id","=",$req->user_id)->where("book_id","=",$req->book_id)->pluck('library_card');
+        $cheak = Booked::where("user_id","=",$req->user_id)->where("book_id","=",$req->book_id)->pluck('id');
         if(!$cheak->isEmpty()) return $str;
 
-        $library_card = User::where('id',"=",$req->user_id)->pluck('library_card');
         $booked = new Booked();
         $booked->book_id = $req->book_id;
         $booked->user_id = $req->user_id;
-        $booked->library_card = $library_card["0"];
         $count = Books::where("id","=",$req->book_id)->pluck("count")["0"]-1;
         Books::where("id","=",$req->book_id)->update(["count" => $count]);
 

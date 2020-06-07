@@ -75,8 +75,7 @@ class RegisterController extends Controller
         $reg->phone_number = $data['phone_number'];
         $reg->email = $data['email'];
         $reg->password = bcrypt($data['password']);
-        $reg->library_card = makeLibraryCard();
-
+        $reg->library_card = makeLibraryCard();;
         $reg->save();
         return $reg;
     }

@@ -16,7 +16,6 @@ class CreateBookedTable extends Migration
         Schema::create('booked', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->biginteger("book_id");
-            $table->biginteger("library_card");
             $table->biginteger("user_id");
             $table->timestamps();
         });

@@ -1,0 +1,25 @@
+.img{
+    display:inline;
+    position: absolute;
+    top:10px;
+}
+
+.text{
+    display:inline; 
+    position: absolute;
+    top:10px;
+    left:110px;
+}
+
+.both{
+    height: 150px;
+    position: relative;
+    margin:10px;
+}
+
+.book{
+    border:black solid 1px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+

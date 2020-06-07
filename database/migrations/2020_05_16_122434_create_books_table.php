@@ -21,6 +21,7 @@ class CreateBooksTable extends Migration
             $table->integer('date');
             $table->integer('pages');
             $table->integer('count');
+            $table->text("image");
             $table->timestamps();
         });
     }

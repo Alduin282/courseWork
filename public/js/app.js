@@ -37616,9 +37616,9 @@ var render = function() {
         _vm._v(" "),
         _vm.is_refresh & _vm.ok & !_vm.massage & !_vm.err
           ? _c("span", { staticStyle: { color: "green" } }, [
-              _vm._v(
-                "\n            Книга успешно забронирована. Книга будет ждать вас 3 дня\n            "
-              )
+              _vm._v("\n            Книга успешно забронирована."),
+              _c("br"),
+              _vm._v(" Книга будет ждать вас 3 дня\n            ")
             ])
           : _vm._e(),
         _vm._v(" "),
